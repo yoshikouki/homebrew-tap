@@ -7,22 +7,22 @@ class Nota < Formula
   on_macos do
     on_arm do
       url "https://github.com/yoshikouki/nota/releases/download/v0.2.0/nota-darwin-arm64.tar.gz"
-      sha256 "ee2acc62fcb39ee6ab63115373c68bdb81bdbb6e627a652b2da1959875925912"
+      sha256 "ef89ce3414afea68cd1961c48394c02750ffa169ddcb7f6aa77cd51c9f867905"
     end
     on_intel do
       url "https://github.com/yoshikouki/nota/releases/download/v0.2.0/nota-darwin-x64.tar.gz"
-      sha256 "9ec1ff2c1df2a8e1573dafe9c2b3f284efaad3bd015554bcda27380f86fd33f1"
+      sha256 "e182a1a838a422472b11f69852703f72d5075c2321134b01a516deb1e37a07cf"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/yoshikouki/nota/releases/download/v0.2.0/nota-linux-arm64.tar.gz"
-      sha256 "31fe61cd53ec2d1b7333b74b38f3f09934dd3c1858ab3a08925601a5679d2ff3"
+      sha256 "2635eba167a529e785f99402e31cc33a4bfdc86cb9f44f69136014809851a073"
     end
     on_intel do
       url "https://github.com/yoshikouki/nota/releases/download/v0.2.0/nota-linux-x64.tar.gz"
-      sha256 "b5252d4d093f838664b244a1a3a7280990b32c09f57601fb0f4daae56f39f65d"
+      sha256 "c2511fce437e8a04c24e589f92faa4b18e7b8bb1beeafc32490952fdce18d51c"
     end
   end
 
