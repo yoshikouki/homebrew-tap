@@ -1,28 +1,28 @@
 class Nota < Formula
   desc "Notion CLI — read, write, and cache your Notion pages"
   homepage "https://github.com/yoshikouki/nota"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/yoshikouki/nota/releases/download/v0.3.0/nota-darwin-arm64.tar.gz"
-      sha256 "a9fa80c1747eeba5cd00b25114bdadd09df853090686b3f5d6d5cc7c7ea9b9ca"
+      url "https://github.com/yoshikouki/nota/releases/download/v0.3.1/nota-darwin-arm64.tar.gz"
+      sha256 "eaeb48d63052cb1d9952f4b921f1e6b601e1ddafd5183eeb605bf5c180315e29"
     end
     on_intel do
-      url "https://github.com/yoshikouki/nota/releases/download/v0.3.0/nota-darwin-x64.tar.gz"
-      sha256 "e838a51b4e7dc43a82b21c5b7310d0f8021c0084ed7c3cea1e9735f4f3ca1f4d"
+      url "https://github.com/yoshikouki/nota/releases/download/v0.3.1/nota-darwin-x64.tar.gz"
+      sha256 "59eeda4bbeed084a74c7965b242236fa866e0619d999646af4e7710681b0257c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/yoshikouki/nota/releases/download/v0.3.0/nota-linux-arm64.tar.gz"
-      sha256 "b3ff6c409f6b70b5b6a1882bab82d05dd1b1f17677cc9da9f1e1da3d36b4549c"
+      url "https://github.com/yoshikouki/nota/releases/download/v0.3.1/nota-linux-arm64.tar.gz"
+      sha256 "a10121770a9ed07bd4ed8e6263037db5759a2b1e2ccba138088ffbefcd4b232b"
     end
     on_intel do
-      url "https://github.com/yoshikouki/nota/releases/download/v0.3.0/nota-linux-x64.tar.gz"
-      sha256 "4df4a30f3feea048ba4bb40be5af20810859fe7fb5ca5414a809a93944f5e19a"
+      url "https://github.com/yoshikouki/nota/releases/download/v0.3.1/nota-linux-x64.tar.gz"
+      sha256 "b7c4d09cb2948e8fb2bd60fd673f807cffdd27c1f4f86e55c5e7d617aab7f980"
     end
   end
 
